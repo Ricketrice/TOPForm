@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    max-width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.container {
+    overflow: hidden;
+    display: flex;
+}
+
+.first_img {
+    width: 100vh;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.second_img {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.container2 {
+    background-color: yellow;
+}
+
+
+.container2 h1{
+    text-align: center;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: green;
+    margin-bottom: 0;
+}
+
+.container2 h2 {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+form {
+    background-color: green;
+    font-size: 32px;
+    height: 60vh;
+}
+
+.first-line, .second_line, .third_line{
+    margin-left: 50px;
+    margin-right: 100px
+
+}
+
+.first-line1, .second_line1, .third_line1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-line2, .third_line2{
+    display: flex;
+    justify-content: space-between;
+}
+
+#first_name, #last_name, #email, #phone,#cpassword, #password {
+    height: 20px;
+}
+
+.second_line2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#email {
+    margin-right: 225px;
+}
+
+.email{
+    margin-right: 105px;
+}
+
+.cpassword {
+    margin-right: -115px;
+}
+
+#cpassword {
+    margin-right: 225px;
+}
+
+button {
+    margin-top: 25px;
+    height: 30px;
+    width: 80px;
+    margin-left: 50px;
+    font-size: 20px;
+    color: yellow;
+    background-color: green;
+}
+
+
+.already {
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+input:focus {
+    background-color: lightgreen;
+    outline: none;
+}
+
+#email:invalid {
+    color: red;
+    border: 1px solid red;
+}
+
